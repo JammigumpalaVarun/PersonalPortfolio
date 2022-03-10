@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f8f9fa;
+        }
+    #container {
+        background-color: white;
+        width:50%;
+        margin: auto;
+       
+        
+    }
+
+    @media  screen and  (max-width:1200px) {
+  #container {
+      width:100%;
+      margin: 0;
+  } 
+
+  #madam{
+      display: grid;
+      grid-template-rows: 100%, 100%, 100%;
+  }
+ 
+
+}
+@media  screen and  (max-width:767px) {
+    #madam .spec {
+        display: none;
+    }
+   
+
+}
+@media  screen and  (min-width:768px){
+    #madam .specc {
+        display: none;
+    }
+}
+@media  screen and  (min-width:1200px) {
+  #container {
+    width:54%;
+      margin: auto;
+  } }
+  @media  screen and  (max-width:300px) {
+  #madam span {
+   font-size: 15px;
+  }
+  * {
+   font-size: 15px;
+  } }
+  @media  screen and  (max-width:280px) {
+  * {
+   font-size: 12px;
+  }
+  #madam span {
+   font-size: 12px;
+  } }
+
+    </style>
+</head>
+<body>
+    <div id="container" class="pb-4">
+       <div> <img src="images/projectthumbnails/1.jpg" class="img-thumbnail" alt="Project Thumbnail"></div>
+
+       <div id="madam" class="mt-2 p-4 py-0 mb-1  d-md-flex justify-content-between">
+           
+        <span class="fw-bold text-dark   text-muted">Supervisor: Prof. Kokila S </span>
+        <span class="fw-bold text-dark text-center text-muted">Institute: Presidency University</span>
+        <span class=" spec fw-bold text-dark  text-muted">Jan 2021 – May 2021 </span>
+        <span class=" specc fw-bold text-dark   text-muted">Duration: Jan 2021 – May 2021 </span>
+    
+       </div>
+
+       <div class="px-4  text-dark text-muted mb-1">
+        <p class="m-0  fs-6"><span class="fw-bold">Team Members:</span> <span>Varun Jammigumpala, Veluru Chaitanya, Veluru Vinay Kumar, Vecham Sai Kumar, Yelleboyena Sai Krishna.</span></p>
+        </div>
+
+       <div class="text-muted mb-1 fs-6 px-4" >
+             <span class="fw-bold text-dark text-muted">Description:</span>
+               <p class="m-0 mb-1">This project is mostly based on IoT, we used different type of sensors to detect the symptoms and to stop spreading
+                the COVID-19. </p>
+                <p  class="m-0 mb-1">The system checks whether the person is wearing the mask or not by using image processing methods.</p>
+                <p  class="m-0 mb-1">The system also checks the main symptom of COVID-19 high fever, if the scanned person has high fever the buzzer
+                    will alert, else it will remains normal.</p>
+                    <p  class="m-0 mb-1">For the oral health checkup, our system has a extra facility to check the pulse rate also, all the scanned values display
+                        in the mobile app and also on the LCD display screen.</p>
+                        <p  class="m-0">This system is also responsible for maintaining minimum physical distance to stop spreading virus.</p>
+                 </div>
+
+                 <div class="px-4 text-dark text-muted mb-1">
+                  <span class="fw-bold text-dark text-muted">Related Coursework Done:</span> 
+                  <ul>
+                      <li>Internet of Things</li>
+                      <li>Image Processing</li>
+                      <li>Mobile App Development</li>
+                      <li>Programming Languages</li>
+                  </ul>
+                 </div>
+                <div class="text-center"> 
+                    <p class="mb-6"> <a href="https://www.irjmets.com/uploadedfiles/paper/volume3/issue_5_may_2021/9802/1628083393.pdf" class="text-primary text-decoration-none">See Publication</a></p> 
+                </div>
+  
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
